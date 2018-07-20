@@ -1,0 +1,29 @@
+{
+    "namespace": "com.pixability.model",
+    "type": "record",
+    "name": "LineItemPlatformSummaryDaily",
+    "doc": "InstaPot Line Item stats by platform and day / date",
+    "fields": [
+        {"name": "platform", "type": "string"},
+        {"name": "insertion_order_id", "type": "long"},
+        {"name": "line_item_id", "type": "long"},
+        {"name": "date", "type": "string"},
+        {"name": "platform_clicks", "type":  ["null", "long"], "default": 0},
+        {"name": "platform_impressions", "type":  ["null", "long"], "default": 0},
+        {"name": "platform_spend", "type": ["null", "float"], "default": 0},
+        {"name": "platform_video_spend", "type": ["null", "float"], "default": 0},
+        {"name": "platform_video_views", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_3_sec", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_10_sec", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_30_sec", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_to_25_pct", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_to_50_pct", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_to_75_pct", "type":  ["null", "long"], "default": 0},
+        {"name": "video_views_to_100_pct", "type":  ["null", "long"], "default": 0},
+        {"name": "contract_clicks", "type":  ["null", "long"], "default": 0},
+        {"name": "contract_impressions", "type":  ["null", "long"], "default": 0},
+        {"name": "contract_spend", "type": ["null", "float"], "default": 0},
+        {"name": "contract_video_spend", "type": ["null", "float"], "default": 0},
+        {"name": "contract_video_views", "type":  ["null", "long"], "default": 0}
+    ]
+}

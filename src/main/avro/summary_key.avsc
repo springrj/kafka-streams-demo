@@ -1,0 +1,12 @@
+[
+	{
+		"namespace": "com.pixability.model",
+		"type": "record",
+		"name": "SummaryKey",
+		"fields": [
+			{ "name": "date", "type": "string" },
+			{ "name": "line_item_id", "type": "long" },
+			{ "name": "platform", "type": "string" }
+		]
+	}
+]
